@@ -19,3 +19,15 @@ function filter() {
   });
   console.log(result);
 }
+// the result is  2 and 4
+
+function reduce() {
+  let num = [1, 2, 3, 4];
+  let result = num.reduce(function (n1, n2) {
+    let ans;
+    ans = n1 * n2;
+    return ans;
+  });
+  console.log(result);
+}
+//reduce functino acces two parameter and calculate tow parameter
