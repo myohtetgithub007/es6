@@ -31,3 +31,15 @@ function reduce() {
   console.log(result);
 }
 //reduce functino acces two parameter and calculate tow parameter
+
+//Arrow FUnction
+let num = [1, 2, 3, 4];
+
+let n = 10;
+var result = num.map((n) => n - 2);
+console.log(result);
+
+//String g Interpolation
+
+let name = "myo htet";
+console.log(`${name} is my name`);
