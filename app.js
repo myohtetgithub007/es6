@@ -43,3 +43,13 @@ console.log(result);
 
 let name = "myo htet";
 console.log(`${name} is my name`);
+
+// Es6 class create
+
+class eat {
+  name = "fish";
+  moringingEat = () => `${this.name} is eating`;
+}
+let fish = new eat();
+
+console.log(fish.moringingEat());
