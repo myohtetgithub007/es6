@@ -122,3 +122,16 @@ const objectPerson = (name) => {
 };
 
 objectPerson().showName();
+
+//destructing
+//arrray destructing
+var football = ["manu", "mancity"];
+var [team1, team2] = football;
+console.log(team1, team2);
+
+//destructing meaning is destruct array and object to put in a variable
+
+//object destructing
+let football1 = { name: "manu", city: "london" };
+let { name1, city } = football1;
+console.log(city);
