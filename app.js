@@ -53,3 +53,18 @@ class eat {
 let fish = new eat();
 
 console.log(fish.moringingEat());
+
+//es6  tutorial
+
+var calc = (num) => {
+  if (num % 2 == 0) {
+    return "even number";
+  } else {
+    return "odd number";
+  }
+};
+var result = calc(5);
+console.log(result);
+
+//() is accept parameter value
+//=> calculate operation
