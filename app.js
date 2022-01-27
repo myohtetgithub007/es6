@@ -135,3 +135,38 @@ console.log(team1, team2);
 let football1 = { name: "manu", city: "london" };
 let { name1, city } = football1;
 console.log(city);
+
+//for in and for of
+
+// in  is <<index>>
+//of   is <<value>>
+
+let fruitName = ["mango", "orange", "apple"];
+for (f of fruitName) {
+  console.log(f);
+}
+
+for (f1 in fruitName) {
+  console.log(f1);
+}
+
+//
+class Person2 {
+  constructor(name) {
+    console.log("This is constructor" + name);
+  }
+  static showMyName() {
+    console.log("This is static method");
+  }
+}
+let per2 = new Person2("myohtet");
+
+//constructor is auto workiing
+//so that we can create object
+
+Person2.showMyName();
+
+//static method we don't create instance
+
+//direct call className
+//<<<<<<Person.showMyName>
