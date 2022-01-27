@@ -111,3 +111,14 @@ let personData = { name: "myo", age: 25 };
 let personDataAdd = { ...personData, hobby: "swimming" };
 console.log(personDataAdd);
 //console.log(personDataAdd.hobby);
+
+//object literal
+const objectPerson = (name) => {
+  return {
+    showName() {
+      console.log("Hello world");
+    },
+  };
+};
+
+objectPerson().showName();
