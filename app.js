@@ -96,3 +96,18 @@ let result1 = restParameter(1, 2, 3, 4, 5);
 console.log(result1);
 
 //rest parameter is how many parameter is insert わからないとき using rest parameter
+
+//spread operator
+//spread with arry example
+let fruit = ["banana", "orange"];
+
+let addFruit = [...fruit, "apple"];
+console.log(addFruit);
+
+//spread with object
+
+let personData = { name: "myo", age: 25 };
+
+let personDataAdd = { ...personData, hobby: "swimming" };
+console.log(personDataAdd);
+//console.log(personDataAdd.hobby);
