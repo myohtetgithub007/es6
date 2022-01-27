@@ -68,3 +68,31 @@ console.log(result);
 
 //() is accept parameter value
 //=> calculate operation
+
+//this keywork
+
+const person = {
+  name: "myo htet",
+  age: 24,
+  showData() {
+    console.log(this.name);
+  },
+};
+person.showData();
+
+// this keyboard work is called object parameter
+
+//rest parameter
+
+const restParameter = (...num) => {
+  let total = 1;
+  for (n of num) {
+    total *= n;
+  }
+  return total;
+};
+
+let result1 = restParameter(1, 2, 3, 4, 5);
+console.log(result1);
+
+//rest parameter is how many parameter is insert わからないとき using rest parameter
